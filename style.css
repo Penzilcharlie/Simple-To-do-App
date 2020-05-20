@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    background-color: #edf0f1;
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.head{
+    color: #fff;
+    padding: 30px;
+    background-color: #ff8c00;
+    text-align: center;
+    box-shadow: 0px 4px 5px rgba(44, 62, 80, 0.226);
+}
+
+section{
+    margin: 10px 0 110px 0;
+    padding: 20px 40px; 
+    min-height: 60vh;
+}
+
+section ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+section ul li{
+    padding: 15px;
+    margin: 0 0 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px rgba(44, 62, 80, 0.226);
+    color: #2e2e2e;
+}
+
+li button{
+    background-color: #fff;
+    float: right;
+    height: 50%;
+    outline: none;
+    margin: -2px 0 0 0;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.trash{
+    margin-right: 15px;
+}
+
+.check{
+    margin-right: 10px;
+}
+
+.trash svg{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    fill: #25b99a; 
+}
+
+.trash svg:hover{
+    fill: #ff0000;
+    transition:fill 0.3s ease;
+}
+
+.check svg{
+    height: 20px;
+    width: 20px;
+    border: solid 2px #25b99a;
+    border-radius: 5px;
+    cursor: pointer;
+    fill: #25b99a;
+}
+
+.check svg:hover{
+    box-shadow: 0px 0px 4px 4px rgba(37, 185, 154, 0.23);
+
+    transition:box-shadow 0.3s ease;
+}
+
+.hoverColor .check svg{
+    fill: #fff;
+    background-color: #25b99a;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    color: #b5b5b5;
+}
+
+.preview{
+    font-size: 30px;
+    color: #b5b5b5;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+.listIcon svg{
+    width: 150px;
+    height: 200px;
+    fill: #bebebe;
+}
+
+footer{
+    padding: 20px 0 0 0;
+    min-height: 13vh;
+    background-color: #ff8c00;
+    box-shadow: 0px -5px 5px rgba(44, 62, 80, 0.226);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+footer button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(170, 0, 0, 0);
+}
+
+footer button svg{
+    height: 50px;
+    width: 35px;
+    
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+} 
+
+footer button.mic{
+    outline: none;
+    cursor: pointer;
+    box-shadow: none;
+    fill: #fff; 
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: -55px;
+}
+
+footer button.mic:hover{
+    background-color: rgba(0, 0, 0, 0.29);
+    
+    transition:fill 0.1s ease;
+    transition:background-color 0.3s ease;
+}
+
+footer input{
+    height: 50px;
+    width: 50%;
+    margin: 0px 20px 0px 20px;
+    padding: 0 20px 0 20px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    font-weight: 500px;
+    
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+footer input::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer input::-moz-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer input::-ms-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer input::-o-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer button.add{
+    background-color: #fff;
+    border-radius: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    box-shadow: none;
+    fill: #25b99a;
+}
+
+footer button.add:hover{
+    background-color: #25b99a;
+    
+    transition:fill 0.1s ease;
+    transition:background-color 0.3s ease;
+}
+
+footer button.add svg:hover{
+    fill: #fff;
+}
+
+
